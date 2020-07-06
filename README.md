@@ -1,16 +1,16 @@
-# WebTech
+# Tangerine Rye Prototype Website
 
-This is the coursework of the Web Technologies module at University of Bristol. Our website is built for a dear friend's band Tangerine Rye. As per the instructions, we used node server to host the website. **React** framework was chosen for frontend development and **Sqlite3** is for backend database queries.
+This website was submitted as coursework for the Web Technologies module at University of Bristol. Our website is built for a dear friend's band Tangerine Rye. As per the instructions, we only used Javascript to build both the front-end and back-end of the website. **React** framework was chosen for the front-end development and **Sqlite3** was used to handle database access.
 
+## Usage
+Clone this repository.
 ### Install node modules
+From the fullstacksite/ folder, run these commands on the terminal.
+``` 
+$ npm install
+$ npm run client-install
+```
 
-``` npm install```
-
-### Start the website on localhost
-
+### Run the website locally
+To run the website on localhost, run this command on the terminal from the fullstacksite/ folder.
 ```npm run dev```
-
-### Website on Heroku
-
-```https://tangerinerye.herokuapp.com/``` Note that heroku does not support **Sqlite3** thus some pages displays "loading..." only.
-

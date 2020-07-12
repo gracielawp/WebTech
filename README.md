@@ -5,10 +5,14 @@ This website was submitted as coursework for the Web Technologies module at Univ
 ## Usage
 Clone this repository.
 ### Install node modules
-From the fullstacksite/ folder, run these commands on the terminal.
+From the fullstacksite/ folder, run this command on the terminal.
 ``` 
 $ npm install
-$ npm run client-install
+```
+Run the command again from the client folder.
+```
+$ cd client
+$ npm install
 ```
 
 ### Run the website locally
